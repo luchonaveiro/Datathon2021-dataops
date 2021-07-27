@@ -7,7 +7,7 @@ Aca estan los pasos a seguir para ejecutar el proyecto:
 
 ```
 $ docker build -t airflow .
-$ docker run --rm --name datathon-dataops -p 8080:8080 -v $PWD:/usr/local/airflow airflow
+$ docker run --rm --name datathon-dataops -p 8080:8080 -v $PWD:/usr/local/airflow airflow webserver
 ```
 
 donde:
