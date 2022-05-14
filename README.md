@@ -1,6 +1,6 @@
 # **Telecom Datathon 2021: Data Ops**
 
-[![Generic badge](https://img.shields.io/badge/Airflow-1.10.9-blue.svg)](https://airflow.apache.org/)
+[![Generic badge](https://img.shields.io/badge/Apache Airflow-1.10.9-blue.svg)](https://airflow.apache.org/)
 [![Generic badge](https://img.shields.io/badge/Python-3.7-blue.svg)](https://www.python.org/)
 [![Generic badge](https://img.shields.io/badge/Docker-20.10.6-blue.svg)](https://www.docker.com/)
 
