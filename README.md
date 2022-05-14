@@ -1,5 +1,9 @@
 # **Telecom Datathon 2021: Data Ops**
 
+[![Generic badge](https://img.shields.io/badge/Airflow-1.10.9-blue.svg)](https://www.postgresql.org/)
+[![Generic badge](https://img.shields.io/badge/Python-3.7-blue.svg)](https://www.python.org/)
+[![Generic badge](https://img.shields.io/badge/Docker-20.10.6-blue.svg)](https://www.docker.com/)
+
 En este repositorio se encuentran los archivos necesarios para ejecutar y completar el desafío del **Telecom Datathon 2021: Data Ops**.
 
 Una consideración es que se debe setear la memoria de Docker en al menos 8gb para que el proceso corra bien.
@@ -7,7 +11,9 @@ Aca estan los pasos a seguir para ejecutar el proyecto:
 
 ```
 $ docker build -t airflow .
-$ docker run --rm --name datathon-dataops -p 8080:8080 -v $PWD:/usr/local/airflow airflow webserver
+$ docker run --rm --name datathon-dataops \ 
+-p 8080:8080 \ 
+-v $PWD:/usr/local/airflow airflow webserver
 ```
 
 donde:
